@@ -63,9 +63,10 @@ getwd()
 # Load the alignment
 #alignment<-read.dna("yourfile.fasta", format="fasta")
 
-# Example
-alignment <- read.dna("S16_File_Parupeneus_barberinus.fasta", format="fasta")
-alignment <- read.dna("S25_File_testing_S1_D.fasta", format="fasta")
+# Example datasets for networks with increasing complexity
+alignment <- read.dna("S1_File_testing_A.fasta", format="fasta")
+#alignment <- read.dna("S6_File_testing_F.fasta", format="fasta")
+#alignment <- read.dna("S12_File_testing_L.fasta", format="fasta")
 
 # Summary of the alignment
 alignment
@@ -77,7 +78,7 @@ alignment
 #sites<-read.csv('filename.csv')
 
 #Example
-#sites <- read.csv("S17_File_Parupeneus_barberinus_sites.csv")
+sites <- read.csv("S13_File_sites_for_all_Fig1.csv")
 #sites
 
 # Create:

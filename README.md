@@ -36,11 +36,11 @@ See [paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.02
 
 *	Place this script in the same directory as:
 
-		1. A fasta file with your sequences
-		2. A file with site info (optional).
-			* The site file consists of a .csv file with the sample names in the first column and site names in the second.
-			* Call these columns "sample" and "site", respectively. Save the file as "sites.csv"
-			* All metrics can still be calculated without any site information (see script)
+	1. A fasta file with your sequences
+	2. A file with site info (optional).
+		* The site file consists of a .csv file with the sample names in the first column and site names in the second.
+		* Call these columns "sample" and "site", respectively. Save the file as "sites.csv"
+		* All metrics can still be calculated without any site information (see script)
 
 *	Open the script to set your working directory, load alignments and specify or create a sites file.
 

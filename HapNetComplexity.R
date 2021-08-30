@@ -63,7 +63,7 @@ getwd()
 # Load the alignment
 #alignment<-read.dna("yourfile.fasta", format="fasta")
 
-# Example datasets for networks with increasing complexity
+# Example datasets for networks with increasing complexity. Load one at the time
 alignment <- read.dna("S1_File_testing_A.fasta", format="fasta")
 #alignment <- read.dna("S6_File_testing_F.fasta", format="fasta")
 #alignment <- read.dna("S12_File_testing_L.fasta", format="fasta")
